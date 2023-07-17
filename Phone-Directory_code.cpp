@@ -102,13 +102,13 @@ void insertIntoTrie(string contacts[],int n)
 
 int main()
 {
-	string contacts[] = {"pranav" , "pranavkumar", "pranavkumarparihar", "preeti"};
+	string contacts[] = {"Var" , "Vardhan", "Vardhan Suri", "Vanshika"};
 
 	int n = sizeof(contacts)/sizeof(string);
 
 	insertIntoTrie(contacts, n);
 
-	string query = "pra";
+	string query = "Var";
 
 	displayContacts(query);
 
